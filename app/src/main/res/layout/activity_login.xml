@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="start"
+    tools:context=".LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/univanovabold"
+                android:text=" WHO ARE YOU ? "
+                android:textAlignment="center"
+                android:textColor="@color/purple"
+                android:textSize="45dp" />
+
+            <RelativeLayout
+                android:id="@+id/shopkeeper"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_margin="20dp"
+                android:layout_marginTop="200dp"
+                android:background="@drawable/card">
+
+                <!--        <ImageView-->
+                <!--            android:layout_width="wrap_content"-->
+                <!--            android:layout_height="wrap_content"-->
+                <!--            android:layout_alignParentTop="true"-->
+                <!--            android:layout_alignParentEnd="true"-->
+                <!--            android:layout_alignParentBottom="true"-->
+                <!--            android:layout_marginTop="32dp"-->
+                <!--            android:layout_marginEnd="94dp"-->
+                <!--            android:layout_marginBottom="37dp"-->
+                <!--            android:background="@drawable/shop_text" />-->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="125dp"
+                    android:layout_marginBottom="25dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/univanovasemibold"
+                        android:text="SHOPKEEPER"
+                        android:textColor="@color/white"
+                        android:textSize="32sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/univanovasemibold"
+                        android:text="SHOPKEEPER"
+                        android:textColor="@color/card_light"
+                        android:textSize="32sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/univanovasemibold"
+                        android:text="SHOPKEEPER"
+                        android:textColor="@color/card_light"
+                        android:textSize="32sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/univanovasemibold"
+                        android:text="SHOPKEEPER"
+                        android:textColor="@color/card_light"
+                        android:textSize="32sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="207dp"
+                    android:layout_height="196dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="27dp"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginBottom="-3dp"
+                    android:background="@drawable/shopkeeper" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/customer"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_margin="20dp"
+                android:layout_marginTop="200dp"
+                android:background="@drawable/card">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="25dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/univanovasemibold"
+                        android:text="CUSTOMER"
+                        android:textColor="@color/white"
+                        android:textSize="32sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/univanovasemibold"
+                        android:text="CUSTOMER"
+                        android:textColor="@color/card_light"
+                        android:textSize="32sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/univanovasemibold"
+                        android:text="CUSTOMER"
+                        android:textColor="@color/card_light"
+                        android:textSize="32sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/univanovasemibold"
+                        android:text="CUSTOMER"
+                        android:textColor="@color/card_light"
+                        android:textSize="32sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="202dp"
+                    android:layout_height="210dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginEnd="138dp"
+                    android:layout_marginBottom="-1dp"
+                    android:background="@drawable/customer" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

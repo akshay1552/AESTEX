@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Cust_Login">
+
+    <ImageView
+        android:id="@+id/cust_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/arrow_back"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/signup" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/univanovabold"
+                android:text="Login"
+                android:textColor="@color/purple"
+                android:textSize="35sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/email" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:fontFamily="@font/univanovabold"
+                    android:hint="Email ID"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/purple_light"
+                    android:textColorHighlight="@color/purple_light"
+                    android:textColorHint="@color/purple_light"
+                    android:textColorLink="@color/purple"
+                    android:textCursorDrawable="@color/purple_light"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/password" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:fontFamily="@font/univanovabold"
+                    android:hint="Password"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/purple_light"
+                    android:textColorHighlight="@color/purple_light"
+                    android:textColorHint="@color/purple_light"
+                    android:textColorLink="@color/purple"
+                    android:textCursorDrawable="@color/purple_light"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:fontFamily="@font/univanovabold"
+                android:text="Forget Password ?"
+                android:textAlignment="textEnd"
+                android:textColor="@color/purple_light"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:text="Login"
+                android:background="@drawable/login_card"
+                tools:ignore="RtlCompat" />
+
+            <LinearLayout
+                android:id="@+id/custregister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:fontFamily="@font/univanovabold"
+                    android:text="New to AESTEX ?"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/purple_light"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:fontFamily="@font/univanovabold"
+                    android:text="Register"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/purple"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

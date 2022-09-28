@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="onboard1">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="fontFamily">
+            @font/univanovaregular
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+    <style name="onboard2">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="fontFamily">
+            @font/univanovaregular
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+    <style name="onboard3">
+
+        <item name="android:textSize">
+            25sp
+        </item>
+
+        <item name="fontFamily">
+            @font/univanovaregular
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+</resources>
