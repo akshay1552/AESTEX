@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".Shop_Dashboard"
+            android:exported="false" />
+        <activity
             android:name=".Shop_Login"
             android:exported="false" />
         <activity
