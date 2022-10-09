@@ -54,6 +54,7 @@
                     android:src="@drawable/user" />
 
                 <EditText
+                    android:id="@+id/editText_register_full_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -77,6 +78,41 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
+                <RadioGroup
+                    android:id="@+id/radio_group_register_gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radio_male"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:buttonTint="@color/purple_light"
+                        android:text="Male"
+                        android:textColor="#555555"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radio_female"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/purple_light"
+                        android:text="Female"
+                        android:textColor="#555555"
+                        android:textSize="16sp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
                 <ImageView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
@@ -86,6 +122,7 @@
                     android:src="@drawable/email" />
 
                 <EditText
+                    android:id="@+id/editText_register_email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -111,6 +148,39 @@
 
                 <ImageView
                     android:layout_width="24dp"
+                    android:layout_height="18dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/date" />
+
+                <EditText
+                    android:id="@+id/editText_register_dob"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:fontFamily="@font/univanovasemibold"
+                    android:backgroundTint="@color/purple_light"
+                    android:hint="Select Your DOB"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/purple_light"
+                    android:textColorHighlight="@color/purple_light"
+                    android:textColorHint="@color/purple_light"
+                    android:textColorLink="@color/purple"
+                    android:textCursorDrawable="@color/purple_light"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="24dp"
                     android:layout_height="24dp"
                     android:layout_gravity="center"
                     android:layout_marginTop="5dp"
@@ -118,6 +188,7 @@
                     android:src="@drawable/call" />
 
                 <EditText
+                    android:id="@+id/editText_register_mobile"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -150,6 +221,7 @@
                     android:src="@drawable/password" />
 
                 <EditText
+                    android:id="@+id/editText_register_password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -168,7 +240,17 @@
 
             </LinearLayout>
 
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:elevation="10dp"
+                android:visibility="gone" />
+
             <TextView
+                android:id="@+id/button_register"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="20dp"
@@ -179,6 +261,7 @@
                 android:text="Continue"
                 android:background="@drawable/login_card"
                 tools:ignore="RtlCompat" />
+
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -207,6 +290,8 @@
                     android:textAlignment="textStart"
                     android:textColor="@color/purple"
                     android:textSize="15dp" />
+
+
 
             </LinearLayout>
 
