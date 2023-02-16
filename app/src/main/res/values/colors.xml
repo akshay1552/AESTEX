@@ -2,6 +2,8 @@
 <resources>
     <color name="purple">#6C60FF</color>
     <color name="purple_light">#8A7FFE</color>
+    <color name="purple_extra_light">#B7B1F1</color>
+    <color name="transparent">#008A7FFE</color>
     <color name="card_light">#85E5E5E5</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>

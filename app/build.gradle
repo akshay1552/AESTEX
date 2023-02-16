@@ -43,4 +43,9 @@ dependencies {
     implementation 'com.github.AtifSayings:Animatoo:1.0.1'
 //    gif dict
     implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
+
+    implementation 'com.github.yuriy-budiyev:code-scanner:2.3.2@aar'
+    implementation 'com.karumi:dexter:6.2.2'
+    // https://mvnrepository.com/artifact/com.google.zxing/core
+    implementation group: 'com.google.zxing', name: 'core', version: '3.5.0'
 }
