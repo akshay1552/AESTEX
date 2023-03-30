@@ -1,9 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:gravity="start"
     tools:context=".Shop_Dashboard">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/univanovasemibold"
+                android:text=" DASHBOARD "
+                android:textAlignment="center"
+                android:textColor="@color/purple"
+                android:textSize="40dp" />
+
+            <LinearLayout
+                android:id="@+id/add_inventory"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/card"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="-20dp"
+                    android:background="@drawable/add_prod"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-10dp"
+                    android:textSize="30sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/univanovabold"
+                    android:text="Add \nProducts"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/manage_inventory"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:background="@drawable/card"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="-25dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/univanovabold"
+                    android:text="Manage \nProducts"/>
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/mng_prod"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
